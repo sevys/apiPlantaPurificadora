@@ -184,7 +184,6 @@ def registar_usuario():
         return 'error ', ex
 
 
-
 @app.route('/loginUser', methods=['POST'])
 def login_usuario():
     user = User(0, request.form['user'], request.form['password'])

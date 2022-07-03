@@ -2,7 +2,6 @@ from flask import jsonify
 from config import obtener_conexion
 
 
-
 class ModelDirection():
     @classmethod
     def insertar_direccion(self, nombre, apellidos, codigoPostal, calle, telefono, descripcion, idUsuario):
